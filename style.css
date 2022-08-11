@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1276px;
+    width:100% ;
+    margin: 20px auto;
+    padding: 0px 15px;
+    background-color: #FAFAFA;
+    align-items: center;
+}
+.header-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-cont{
+    height: 110px;
+    background: #6a5757 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #597DBC0D;
+    border-radius: 0px 0px 50px 50px;
+    
+}
+
+
+
+.menu-cont img{
+    width: 25px;
+}
+.contact-cont{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.icons-parametrs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/* sliders */
+.four-box-cont{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.dfour-blocks{
+    width: 277px;
+    height: 90px;
+}
+.first{
+    background-color: #F1F7E9;
+    
+}
+.second{
+    background-color: #FEEFE8;
+    
+}
+.thirth{
+    background-color: #EBF7FC;
+    
+}
+.fourth{
+    background-color: #FAF4FA;
+    
+}
+
+
+/* grid */
+.grid-container {
+    margin-top: 50px;
+    row-gap: 20px;
+    column-gap: 20px;
+    display: grid;
+    grid-template-columns: 378px 378px 378px;
+    grid-template-rows: 200px 200px;
+   
+    padding: 10px;
+    
+}
+.item1{
+    background-color: #F5621F;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #74B42C1A;
+
+}
+.item2{
+    background-color: #3CABE0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #74B42C1A;
+    position: relative;
+
+}
+
+.fish-cont img{
+
+    margin-top: -70px;
+    left: -800px;
+    
+}
+.item3{
+    background-color: green;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #74B42C1A;
+    position: relative;
+    
+
+
+}
+
+.bird-cont img{
+    position: absolute;
+    top: -80px;
+    right: 0;
+}
+.item4{
+    background-color: #F5AD00;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #74B42C1A;
+}
