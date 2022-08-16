@@ -42,6 +42,33 @@
     align-items: center;
     flex-direction: column;
 }
+
+
+
+
+/* navbar */
+.navbar{
+    margin-top: 30px;
+}
+.navbar ul{
+    display: flex;
+   
+}
+.navbar ul li:not(:last-child){
+    margin-right: 10px;
+    
+}
+
+.navbar a{
+    color: #111111;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+
+
+
+
 /* sliders */
 .four-box-cont{
     display: flex;
@@ -70,9 +97,6 @@
 }
 
 
-
-
-/* slider */
 .mySlides {display: none}
 img {vertical-align: middle;}
 
@@ -218,6 +242,33 @@ animation-duration: 1.5s;
     box-shadow: 0px 0px 30px #74B42C1A;
 }
 
+/* brands */
+.brands{
+    padding: 15px;
+}
+
+.brands h3{
+    font-size: 28px;
+    line-height: 34px;
+    color: #111111;
+    margin-bottom: 31px;
+}
+.brand-imgs img{
+    width: 180px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin-right: 26px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0px 10px 20px #0808081a;
+}
+
+.brand-imgs{
+    display: flex;
+    justify-content: space-between;
+}
+
 /* aabout us */
 
 .img-box{
@@ -300,9 +351,9 @@ a{
 
 
 /* footer container */
-.container-for-footer{
+.container-for-categoris{
     margin-top: 130px;
-    display: flex;
+    /* display: flex; */
     line-height: 1.5;
     
 }
@@ -321,17 +372,17 @@ ul{
     justify-content: space-between;
 }
 
-.footer-cont{
+.categoris-content{
     
     margin-left: 75px;
-    line-height: 14px;
+    
 }
-.footer-cont img{
+.categoris-content img{
     margin-top: 25px;
     box-shadow: 0px 0px 0px #597DBC0D;
     background-color: whitesmoke;
 }
-.footer-cont h4{
+.categoris-contentt h4{
     font-size: 18px;
     color: #111111;
     text-transform: capitalize;
@@ -340,11 +391,11 @@ ul{
     position: relative;
 }
 
-.footer-cont ul li:not(:last-child){
+.categoris-content ul li:not(:last-child){
     margin-bottom: 15px;
 }
 
-.footer-cont ul li a{
+.categoris-content ul li a{
     font-size: 16px;
     
     color: #6E6E6E;
@@ -353,7 +404,7 @@ ul{
     display: block;
     transition: all 0.3s ease;
 }
-.footer-cont ul li a:hover{
+.categoris-content ul li a:hover{
     color: #111111;
     padding-left: 10px;
 }
