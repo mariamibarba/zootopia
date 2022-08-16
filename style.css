@@ -69,36 +69,98 @@
 
 
 
-/* sliders */
+
 .four-box-cont{
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    margin: 100px 50px;
 }
-.dfour-blocks{
+.four-blocks{
+    display: flex;
+    align-items: center;
     width: 277px;
     height: 90px;
-}
-.first{
     background-color: #F1F7E9;
+    border-radius: 10px;
+    margin-right: 26px;
+}
+.four-blocks img{
+    padding: 10px;
+    border-radius: 6px;
+    margin-right: 26px;
+    margin-left: 24px;
+}
+.four-blocks h4{
+    font-size: 14px;
+    line-height: 17px;
+
+}
+.first {
+    background-color: #E3F0D4;
     
+}
+.first img{
+    background-color: #a2b989;
+
 }
 .second{
     background-color: #FEEFE8;
     
 }
+.second img{
+    background-color: #FDDFD2;
+}
 .thirth{
     background-color: #EBF7FC;
     
+}
+.thirth img{
+    background-color: #a0d5ee;
+
 }
 .fourth{
     background-color: #FAF4FA;
     
 }
+.fourth img{
+    background-color: #d4b4d6;
+
+}
+
+.first span{
+    color: #74B42C;
+}
+.second span{
+    color: #F5621F;
+}
+
+.thirth{
+    background-color: #EBF7FC;
+}
+.thirth img{
+    background-color: rgba(60, 171, 224, 0.2);
+}
+.thirth span{
+   color: #3CABE0;
+}
+
+.fourth{
+    background-color: #FAF4FA;
+}
+.fourth img{
+    background-color:rgba(204, 150, 208, 0.2);
+    margin-right: 40px;
+
+}
+.fourth span{
+   color: #CC96D0;
+}
+
+/* sliders */
 
 
-.mySlides {display: none}
-img {vertical-align: middle;}
+
 
 /* Slideshow container */
 .slideshow-container {
@@ -186,6 +248,11 @@ animation-name: fade;
 animation-duration: 1.5s;
 }
 
+
+
+
+
+
 /* grid */
 .grid-container {
     margin-top: 50px;
@@ -203,36 +270,64 @@ animation-duration: 1.5s;
     grid-row-end: 3;
     border-radius: 10px;
     box-shadow: 0px 0px 30px #74B42C1A;
+    position: relative;
 
+}
+.dog-title{
+    margin: 60px 60px;
+    color: #FFFFFF;
+    line-height: 22px;
+}
+.item1 img{
+    position:absolute;
+    margin-top: 15px;
+    left: 135px;
+}
+.item1 button{
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 161px;
+    height: 42px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    
+}
+.item1 button a{
+    color: #111111;
 }
 .item2{
     background-color: #3CABE0;
     border-radius: 10px;
     box-shadow: 0px 0px 30px #74B42C1A;
-    position: relative;
-
-}
-
-.fish-cont img{
-
-    margin-top: -70px;
-    left: -800px;
     
+
 }
+.item2{
+    position: relative;
+}
+.item2 img{
+    width: 360px;
+    position:absolute;
+    top: -5px;
+    left: -95px;
+}
+
 .item3{
     background-color: green;
     border-radius: 10px;
     box-shadow: 0px 0px 30px #74B42C1A;
     position: relative;
     
+    
 
 
 }
 
-.bird-cont img{
+.item3 img{
     position: absolute;
     top: -80px;
     right: 0;
+    
 }
 .item4{
     background-color: #F5AD00;
@@ -240,6 +335,19 @@ animation-duration: 1.5s;
     grid-column-end: 4;
     border-radius: 10px;
     box-shadow: 0px 0px 30px #74B42C1A;
+    position: relative;
+}
+
+#cat1{
+    position: absolute;
+    top: 32px;
+    left: 0;
+}
+#cat2{
+    position: absolute;
+    top: 18px;
+    right: -60px;
+
 }
 
 /* brands */
