@@ -30,6 +30,9 @@
 .menu-cont img{
     width: 25px;
 }
+.language{
+    display: none;
+}
 .contact-cont{
     
     display: flex;
@@ -671,15 +674,18 @@ img {vertical-align: middle;}
 /* turtle section */
 .turtle-section{
     max-width: 1286px;
+    
     height: 250px;
     background-color: #F5AD00;
     border-radius: 10px;
     box-shadow: 0px 10px 20px #F5AD001A;
-    margin: 40px 80px;
+    margin: 40px 60px;
+    position: relative;
 }
 
 .turtle-content{
     padding: 56px 100px;
+    width: 800px;
 }
 
 .turtle-content h4{
@@ -708,15 +714,22 @@ img {vertical-align: middle;}
     transition: all .5s;
     cursor: pointer;
 }
+.turtle-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .turtle-img{
     margin-left: 550px;
     margin-top: -330px;
+    position: absolute;
 }
 
 
 /* brands */
 .brands{
     padding: 15px;
+    
 }
 
 .brands h3{
@@ -740,7 +753,20 @@ img {vertical-align: middle;}
 .brand-imgs{
     display: flex;
     justify-content: space-between;
+    
 }
+.horizontal-scroll .btn-scroll{
+    background-color: #fff;
+    color: #999;
+    box-shadow: 0 0 10px #999;
+    padding: 5px 8px;
+    border: 0;
+    margin: 0 5px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+/* dfghjkl;' */
 .dif-header-cont{
     display: flex;
     justify-content: space-between;

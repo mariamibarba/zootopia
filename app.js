@@ -24,3 +24,41 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+
+
+// brands
+
+
+// let currentScrollposition = 0;
+// let scrollAmount = 320;
+
+
+// const sCont = document.querySelector(".storys-container");
+// const hScroll= document.querySelector(".horizontal-scroll");
+// const btnScrollleft = document.querySelector("#btn-scrol-left");
+// const btnScrollright = document.querySelector("#btn-scrol-right");
+// btnScrollleft.style.opacity = "0";
+
+
+// let maxScroll = -sCont.offsetwidth + hScroll.offsetwidth;
+
+
+// function scrollyhorizontally(val){
+//   currentScrollposition += (val+scrollAmount);
+//   if(currentScrollposition > 0){
+//     currentScrollposition = 0
+//     btnScrollleft.style.opacity = "0";
+//   }else{
+//     btnScrollleft.style.opacity = "1";
+//   }
+//   if(currentScrollposition < maxScroll){
+//     currentScrollposition = maxScroll;
+//     btnScrollright.style.opacity = "0";
+//   }else{
+//     btnScrollright.style.opacity = "1";
+//   }
+
+//   sCont.style.left = currentScrollposition +"px";
+
+// }
