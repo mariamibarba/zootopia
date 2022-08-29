@@ -12,6 +12,9 @@
     background-color: #FAFAFA;
     align-items: center;
 }
+.responsive-menu{
+    display: none;
+}
 .header-block{
     display: flex;
     justify-content: space-between;
@@ -23,6 +26,10 @@
     box-shadow: 0px 0px 10px #597DBC0D;
     border-radius: 0px 0px 50px 50px;
     
+}
+.header-content{
+    display: none;
+   
 }
 
 
