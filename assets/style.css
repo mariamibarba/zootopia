@@ -74,7 +74,7 @@
 
 .navbar a{
     color: #111111;
-    font-size: 18px;
+    font-size: 15px;
     margin-left: 5px;
     text-transform: capitalize;
     font-family: 'DynaPuff';
@@ -591,7 +591,7 @@ img {vertical-align: middle;}
 
 .cart{
     width: 35px;
-    margin-top: -100px;
+    margin-top: -50px;
     margin-left: 180px;
     
     background-color: #74B42C;
@@ -1276,4 +1276,95 @@ td{
     margin: 20px auto;
     padding: 0px 15px;
     
+}
+/* category page */
+
+
+.filter-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px 0 0;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F5621F;
+}
+/* aside block */
+.aside-container{
+    max-width: 277px;
+    width: 100%;
+    height:1930px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px #597DBC0D;
+    border-radius: 10px;
+    margin-right: 26px;
+}
+.green-btns{
+    padding: 15px 20px;
+}
+.ages{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+.ages button{
+    width: 17px;
+    height: 17px;
+    border-radius: 4px;
+    background-color: #E7E7E7;
+    border: none;
+    margin-right: 10px;
+}
+
+.ages button:hover{
+    background-color: #90c256;
+    transition: all .5s;
+}
+
+.ages button.active{
+    background-color: #74B42C;
+}
+.ages span{
+    font-size: 14px;
+    line-height: 17px;
+    color: #3F3F3F;
+    font-family: 'BPG Glaho';
+}
+
+.drop-down-cont{
+    padding: 20px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.drop-down-cont img{
+    width: 8px;
+    height: 8px;
+}
+.filter-btn{
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background-color: #74B42C;
+    border-radius: 10px;
+    padding: 19px 60px;
+    border: none;
+    margin-left: 30px;
+    font-family: 'BPG Glaho';
+}
+
+.filter-btn:hover{
+    background-color: #6b963b;
+    transition: all .5s;
+}
+.main-section{
+    display: flex;
+    justify-content: space-between;
+}
+.products-lists{
+    display: flex;
+    justify-content: center;
+}
+.white-boxes{
+    margin-left: 30px;
+    margin-top: 10px;
 }
