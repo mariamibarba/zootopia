@@ -291,9 +291,9 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+ /* .active, .dot:hover {
   background-color: #717171;
-}
+}  */
 
 /* Fading animation */
 .fade {
@@ -1046,4 +1046,234 @@ footer{
 
 #green-smartweb{
     color: #74B42C;
+}
+
+/* product page */
+.each-product{
+    display: flex;
+    padding: 20px 70px;
+}
+.same-products{
+    display: flex;
+    flex-direction: column;
+}
+.same-products img{
+    width: 55px;
+    height: 75px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+}
+.main-image{
+    width: 378px;
+    margin-left: 26px;
+}
+.product-code{
+    display: flex;
+    justify-content: row;
+    align-items: center;
+}
+.product-name{
+    font-size: 18px;
+    line-height: 22px;
+    color: #111111;
+    margin-bottom: 18px;
+    
+}
+.product-code span{
+    font-size: 12px;
+    line-height: 14px;
+    color: #9C9C9C;
+    margin-bottom: 29px;
+    margin-right: 25px;
+   
+}
+#share{
+    font-size: 12px;
+    line-height: 14px;
+    color: #111111;
+    margin-left: 6px;
+    
+}
+.paragraph-content{
+    margin-top: 30px;
+    color: #1c1a1a;
+    font-size: 12px;
+    line-height: 19px;
+    background-color: white;
+    
+}
+#kg-btn{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.paragraphs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+#more{
+    display: none;
+}
+#more.active{
+    display: block;
+}
+.price-cont{
+    width: 277px;
+    height: 256px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #597DBC0D;
+    margin-left: 70px;
+    background-color: #FFFFFF;
+}
+
+.pricess{
+    padding: 30px 190px 100px 30px;
+    display: flex;
+    position: relative;
+}
+
+.old-price{
+    position: relative;
+    font-size: 11px;
+    line-height: 18px;
+    color: #111111;
+    margin-left: 10px;
+    width: 90px;
+    font-family: 'BPG Glaho';
+}
+
+.black-line{
+    position: absolute;
+    width: 40px;
+    height: 1px;
+    background-color: #000000;
+    top: 39px;
+    right: 106px;
+}
+.quantity-of-product{
+    width: 217px;
+    height:54px ;
+    background-color:#F8F8F8 ;
+    border-radius:10px;
+    margin-left: 30px;
+    margin-top: -70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quantity-of-product input{
+    width: 30px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #111111;
+    font-family: 'BPG Glaho';
+    background-color: #F8F8F8;
+    border: none;
+}
+
+.quantity-of-product button{
+    background-color: #FFFFFF;
+    padding: 7px;
+    border: none;
+}
+.minus{
+    margin-right: 60px;
+}
+.plus{
+    margin-left: 60px;
+}
+.green-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 225px;
+    height:54px ;
+    background-color:#74B42C ;
+    border-radius:10px;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 5px 4px;
+}
+
+.green-box:hover{
+    background-color:#8dc948 ;
+    transition: all .5s;
+    cursor: pointer;
+}
+.green-box span{
+    font-size: 10px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-right: 36px;
+    
+}
+.added-cart {
+    display: none;
+}
+.green-box img{
+    background-color: #FFFFFF;
+    padding: 6px;
+    border-radius: 4px;
+}
+.brand-logo{
+    width: 260px;
+    height: 250px;
+    object-fit: contain;
+    margin-left: 15px;
+}
+.product-prices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.more-information{
+    display: flex;
+    flex-direction: column;
+    padding: 90px 20px 90px 90px;
+}
+.more-information h2{
+    margin-bottom: 42px;
+    font-size: 28px;
+    line-height: 34px;
+    color: #111111;
+    
+}
+
+td{
+    padding: 40px 100px 0px 0px;
+}
+.light-text{
+    text-align: left;
+    font-size: 14px;
+    line-height: 19px;
+    color: #9C9C9C;
+
+}
+.darker-text{
+    text-align: right;
+    font-size: 14px;
+    line-height: 19px;
+    color: #111111;
+    font-family: 'BPG Glaho';
+    margin-right: 80px;
+}
+
+.red-backgr{
+    background-color: rgba(245, 98, 31, 0.6);
+    border-radius: 10px;
+    padding: 10px;
+}
+.black-lines{
+    max-width: 1260px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 0px 15px;
+    
 }
