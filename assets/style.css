@@ -547,6 +547,9 @@ img {vertical-align: middle;}
     line-height: 18px;
     color: #111111;
 }
+.weight-btns button:hover{
+    background-color: #c3baba;
+}
 .current-price{
     font-size: 24px;
     line-height: 28px;
@@ -1478,7 +1481,3 @@ cursor: pointer;
 .small-icons-resp{
     display: none;
 }
-.filter-btn{
-    display: none;
-}
-.
