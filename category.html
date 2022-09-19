@@ -46,7 +46,9 @@
         </div>
         
         
+        
     </header>
+    
     <main class="container">
         <div>
             <nav class="navbar">
@@ -67,152 +69,255 @@
                 </ul>
             </nav>
         </div>
+        <div class="small-icons-resp">
+            <div class="header-icons">
+                <img src="assets/images/home.png" alt=" cart icon">
+                <span>მთავარი</span>
+            </div>
+             <div class="header-icons">
+                <img src="assets/images/search.png" alt="search icon">
+                <span>ძებნა</span>
+            </div>
+
+             <div class="burg-responsive">
+                 <img src="assets/images/10.png" alt="burger menu">
+             </div>
+             <div class="header-icons">
+                <img src="assets/images/shopping-cart.png" alt=" cart icon">
+                <span>კალათა</span>
+            </div>
+            <div class="header-icons">
+                <img src="assets/images/smile.png" alt="smile icon">
+                <span>შესვლა</span>
+            </div>
+        </div>
+        <button ondblclick="showFilters" type="submit" class="filter-btn">ფილტრაცია</button>
 
 
         <div class="main-section">
-            <form class="aside-container">
-                <div class="priceSlider">
-                    <h1>ფასი </h1>
-                     
+            
+            
+            <form >
+                
+                <div class="aside-container" id="aside-container">
+                    <div class="priceSlider">
+                        <h1>ფასი </h1>
+                         
+                            
                         
-                    
+                            
+                        <div class="min-max-range">
+                        <input type="range" min="100" max="300" value="2000" class="range" id="min">
+                        <input type="range" min="500" max="1000" value="8000" class="range" id="max">      
+                        </div>  
+                        <div class="min-max">
+                            <div class="min">
+                                <label></label><span id="min-value"></span>
+                            </div>
+                            <div class="max">
+                                <label></label><span id="max-value"></span>
+                            </div>     
+                           </div>   
+                            
+                        <div style="clear: both;"></div>    
+                        </div> 
+    
+                    <div class="green-btns">
+                        <h3>ასაკი</h3>
                         
-                    <div class="min-max-range">
-                    <input type="range" min="100" max="300" value="2000" class="range" id="min">
-                    <input type="range" min="500" max="1000" value="8000" class="range" id="max">      
-                    </div>  
-                    <div class="min-max">
-                        <div class="min">
-                            <label></label><span id="min-value"></span>
+                        <div>
+                            <label class="ages">
+                                <input type="checkbox" name="categories">
+                                ახალდაბადებულები
+                            </label>
                         </div>
-                        <div class="max">
-                            <label></label><span id="max-value"></span>
-                        </div>     
-                       </div>   
+                        <div>
+                            <label class="ages">
+                                <input type="checkbox" name="categories">
+                                პატარა
+                            </label>
+                        </div>
+                        <div>
+                            <label class="ages">
+                                <input type="checkbox" name="categories">
+                                ზრდასრული
+                            </label>
+                        </div>
                         
-                    <div style="clear: both;"></div>    
-                    </div> 
-
-                <div class="green-btns">
-                    <h3>ასაკი</h3>
-                    <div class="ages">
-                        <button></button>
-                        <span>ახალდაბადებული</span>
+                        
+                            
                     </div>
-                    <div  class="ages">
-                        <button></button>
-                        <span>პატარა</span>
+    
+                    <div class="green-btns">
+    
+                        <h3>ცხოველის სახეობა</h3>
+                        <div >
+    
+                            <label class="ages">
+                                <input type="checkbox" name="categories">
+                                კატა
+                            </label>
+                        </div>
+                        <div >
+    
+                            <label class="ages">
+                                <input type="checkbox" name="categories">
+                                კატა
+                            </label>
+                        </div>
+                        <div >
+    
+                            <label class="ages">
+                                <input type="checkbox" name="categories">
+                                ძაღლი
+                            </label>
+                        </div>
+                        <div >
+    
+                            <label class="ages">
+                                <input type="checkbox" name="categories">
+                                კურდღელი
+                            </label>
+                        </div>
+                        <div >
+    
+                            <label class="ages">
+                                <input type="checkbox" name="categories">
+                                კუ
+                            </label>
+                        </div>
+                        <div >
+    
+                            <label class="ages">
+                                <input type="checkbox" name="categories">
+                                თევზი
+                            </label>
+                        </div>
+                        <div >
+    
+                            <label class="ages">
+                                <input type="checkbox" name="categories">
+                                თუთიყურში
+                            </label>
+                        </div>
                     </div>
-                    <div  class="ages">
-                        <button class="active"></button>
-                        <span>ზრდასრული</span>
+    
+                    <div class="green-btns">
+                        <h3>ბრენდი</h3>
+                        <div >
+    
+                            <label class="ages">
+                                <input type="checkbox" name="categories">
+                                ბრენდი 1
+                            </label>
+                        </div>
+                        <div >
+    
+                            <label class="ages">
+                                <input type="checkbox" name="categories">
+                                ბრენდი 2
+                            </label>
+                        </div>
+                        <div >
+    
+                            <label class="ages">
+                                <input type="checkbox" name="categories">
+                                ბრენდი 3
+                            </label>
+                        </div>
+                        <div >
+    
+                            <label class="ages">
+                                <input type="checkbox" name="categories">
+                                ბრენდი 4
+                            </label>
+                        </div>
+                        <div >
+    
+                            <label class="ages">
+                                <input type="checkbox" name="categories">
+                                ბრენდი 5
+                            </label>
+                        </div>
+                        <div >
+    
+                            <label class="ages">
+                                <input type="checkbox" name="categories">
+                                ბრენდი 6
+                            </label>
+                        </div>
                     </div>
-                    <div  class="ages">
-                        <button></button>
-                        <span>ხნიერი</span>
+    
+                    <div class="drop-downs">
+                        <div class="drop-down-cont">
+                            <label for="cars">მასალა</label>
+                                <select  name="food-list" form="food-list">
+                                    <option ></option>
+                                    <option >1</option>
+                                    <option >2</option>
+                                    <option >3</option>
+                                </select>
+                        </div>
+                        <div class="drop-down-cont">
+                            <label for="cars">ჯიში</label>
+                                <select  name="food-list" form="food-list">
+                                    <option ></option>
+                                    <option >1</option>
+                                    <option >2</option>
+                                    <option >3</option>
+                                </select>
+                        </div>
+                        <div class="drop-down-cont">
+                            <label for="cars">საკვების კლასი</label>
+                                <select  name="food-list" form="food-list">
+                                    <option ></option>
+                                    <option >1</option>
+                                    <option >2</option>
+                                    <option >3</option>
+                                </select>
+                        </div>
+                        <div class="drop-down-cont">
+                            <label for="cars">გემო</label>
+                                <select  name="food-list" form="food-list">
+                                    <option ></option>
+                                    <option >1</option>
+                                    <option >2</option>
+                                    <option >3</option>
+                                </select>
+                        </div>
+                        <div class="drop-down-cont">
+                            <label for="cars">ზომა</label>
+                                <select  name="food-list" form="food-list">
+                                    <option ></option>
+                                    <option >1</option>
+                                    <option >2</option>
+                                    <option >3</option>
+                                </select>
+                        </div>
+                        <div class="drop-down-cont">
+                            <label for="cars">წონა</label>
+                                <select  name="food-list" form="food-list">
+                                    <option ></option>
+                                    <option >1</option>
+                                    <option >2</option>
+                                    <option >3</option>
+                                </select>
+                        </div>
+                        <div class="drop-down-cont">
+                            <label for="cars">ოჯახი</label>
+                                <select  name="food-list" form="food-list">
+                                    <option ></option>
+                                    <option >1</option>
+                                    <option >2</option>
+                                    <option >3</option>
+                                </select>
+                        </div>
+                        
+                       
+                        
                     </div>
-                </div>
-
-                <div class="green-btns">
-                    <h3>ცხოველის სახეობა</h3>
-                    <div class="ages">
-                        <button></button>
-                        <span>კატა</span>
-                    </div>
-                    <div  class="ages">
-                        <button class="active"></button>
-                        <span>ძაღლი</span>
-                    </div>
-                    <div  class="ages">
-                        <button></button>
-                        <span>კურდღელი</span>
-                    </div>
-                    <div  class="ages">
-                        <button></button>
-                        <span>კუ</span>
-                    </div>
-                    <div  class="ages">
-                        <button></button>
-                        <span>თევზი</span>
-                    </div>
-                    <div  class="ages">
-                        <button></button>
-                        <span>თუთიყუში</span>
-                    </div>
-                </div>
-
-                <div class="green-btns">
-                    <h3>ბრენდი</h3>
-                    <div class="ages">
-                        <button></button>
-                        <span>ბრენდი 1</span>
-                    </div>
-                    <div  class="ages">
-                        <button></button>
-                        <span>ბრენდი 2</span>
-                    </div>
-                    <div  class="ages">
-                        <button class="active"></button>
-                        <span>ბრენდი 3</span>
-                    </div>
-                    <div  class="ages">
-                        <button></button>
-                        <span>ბრენდი 4</span>
-                    </div>
-                    <div  class="ages">
-                        <button></button>
-                        <span>ბრენდი 5</span>
-                    </div>
-                    <div  class="ages">
-                        <button></button>
-                        <span>ბრენდი 6</span>
-                    </div>
-                </div>
-                <div class="drop-downs">
-                    <div class="drop-down-cont">
-                        <span>მასალა</span>
-                        <img src="assets/images/chevron-down.png" alt="">
-                    </div>
-                    <div class="drop-down-cont">
-                        <span>ჯიში</span>
-                        <img src="assets/images/chevron-down.png" alt="">
-                    </div>
-                    <div class="drop-down-cont">
-                        <span>საკვების კლასი</span>
-                        <img src="assets/images/chevron-down.png" alt="">
-                    </div>
-                    <div class="drop-down-cont">
-                        <span>გემო</span>
-                        <img src="assets/images/chevron-down.png" alt="">
-                    </div>
-                    <div class="drop-down-cont">
-                        <span>ზომა</span>
-                        <img src="assets/images/chevron-down.png" alt="">
-                    </div>
-                    <div class="drop-down-cont">
-                        <span>ფორმა</span>
-                        <img src="assets/images/chevron-down.png" alt="">
-                    </div>
-                    <div class="drop-down-cont">
-                        <span>წონა</span>
-                        <img src="assets/images/chevron-down.png" alt="">
-                    </div>
-                    <div class="drop-down-cont">
-                        <span>ოჯახი</span>
-                        <img src="assets/images/chevron-down.png" alt="">
-                    </div>
-                    <div class="drop-down-cont">
-                        <span>ხასიათი</span>
-                        <img src="assets/images/chevron-down.png" alt="">
-                    </div>
-                    <div class="drop-down-cont">
-                        <span>წყლის ტემპერატურა</span>
-                        <img src="assets/images/chevron-down.png" alt="">
-                    </div>
-                   
-                    
-                </div>
-                <button type="submit" class="filter-btn">ფილტრაცია</button> 
+                    <button type="submit" class="filter-btn">ფილტრაცია</button>
+                </div> 
             </form>
             <div class="products-lists">
                 <div class="white-block-container">

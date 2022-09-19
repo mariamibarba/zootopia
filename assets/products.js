@@ -1,9 +1,13 @@
 const kgBtns = document.querySelectorAll(".kg-btn-single");
 const dropDown = document.querySelector("#drop-down-p")
+const dropDownn = document.querySelector("#drop-down-paragraf")
 const more = document.querySelector("#more")
 const cart = document.querySelector(".green-box")
 const add = document.querySelector(".add-cart")
 const added = document.querySelector(".added-cart")
+
+
+
 
 
 kgBtns.forEach((kg) => {
