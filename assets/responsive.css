@@ -635,5 +635,16 @@
     .filter-list{
         display: block;
     }
-
+    .responsives-filter{
+        display: block;
+        margin-left: 110px;
+        width: 150px;
+        height: 30px;
+        border-radius: 155px;
+       
+    }
+    .filter-btn{
+        display: none;
+    }
+    
 }

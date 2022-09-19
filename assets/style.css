@@ -1481,3 +1481,17 @@ cursor: pointer;
 .small-icons-resp{
     display: none;
 }
+.responsives-filter{
+    display: none;
+}
+
+ .aside-container.active{
+        display: block;
+ }
+
+.products-lists.active{
+        display: none;
+  }
+.responsives-filter{
+    background-color: #6b963b;
+}

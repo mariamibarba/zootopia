@@ -30,3 +30,13 @@ minSlider.oninput = function(){
 maxSlider.oninput = function(){
  outputMax.innerHTML=this.value;    
 }
+
+
+const filter = document.querySelector('.responsives-filter');
+const aside = document.querySelector('.aside-container');
+const products = document.querySelector('.products-lists');
+
+filter.addEventListener('click', () => {
+    aside.classList.toggle('active')
+    products.classList.toggle('active')
+});
