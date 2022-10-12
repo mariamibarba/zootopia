@@ -115,6 +115,9 @@ bady{
 }
 .four-blocks img{
     padding: 10px;
+    width: 35px;
+    height: 35px;
+    object-fit: ;
     border-radius: 6px;
     margin-right: 26px;
     margin-left: 24px;
@@ -380,10 +383,15 @@ img {vertical-align: middle;}
     background-color: #FFFFFF;
     border-radius: 6px;
     border-style: none;
+    font-family: 'Roboto';
     
 }
 .item1 button a{
     color: #111111;
+    font-family: 'Roboto';
+}
+.item1 button:hover{
+    background-color: #cedcbe;
 }
 .item2{
     background-color: #3CABE0;
@@ -410,6 +418,13 @@ img {vertical-align: middle;}
     border-radius: 6px;
     border-style: none;
 }
+.item2 button a{
+    color: #111111;
+    font-family: 'Roboto';
+}
+.item2 button:hover{
+    background-color: #cedcbe;
+}
 .fish-title{
     margin-top: 20px;
     margin-left: 70px;
@@ -432,22 +447,30 @@ img {vertical-align: middle;}
 
 .item3 img{
     position: absolute;
-    top: -80px;
+    top: -52px;
+    width: 380px;
     right: 0;
     
 }
 .item3 button{
-    margin-top: 50px;
-    margin-left: 5px;
-    width: 140px;
+    margin-top: 130px;
+    margin-left: 22px;
+    width: 161px;
     height: 42px;
     background-color: #FFFFFF;
     border-radius: 6px;
     border-style: none;
 }
+.item3 button a{
+    color: #111111;
+    font-family: 'Roboto';
+}
+.item3 button:hover{
+    background-color: #cedcbe;
+}
 .bird-title{
     position: absolute;
-    margin-top: 140px;
+    margin-top: 40px;
     margin-left: 10px;
     
     color: #FFFFFF;
@@ -482,6 +505,15 @@ img {vertical-align: middle;}
     border-style: none;
     
 }
+.item4 button a{
+    color: #111111;
+    font-family: 'Roboto';
+}
+
+.item4 button:hover{
+    background-color: #cedcbe;
+}
+
 #cat1{
     position: absolute;
     top: 32px;
@@ -615,6 +647,9 @@ img {vertical-align: middle;}
 
 .cart{
     width: 35px;
+    height: 35px;
+    object-fit: contain;
+
     margin-top: -50px;
     margin-left: 180px;
     
