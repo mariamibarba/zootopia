@@ -62,11 +62,6 @@ bady{
     flex-direction: column;
     margin-left: 15px;
 }
-.icons-parametrs img{
-    width: 34px;
-    height: 34px;
-    object-fit: cover;
-}
 
 
 
@@ -532,6 +527,9 @@ img {vertical-align: middle;}
 }
 #procent{
     position: absolute;
+    width: 34px;
+    height: 34px;
+    object-fit: cover;
     border-radius: 4px;
     padding: 8px;
     background-color: #fe340b;
@@ -630,6 +628,21 @@ img {vertical-align: middle;}
 .thre-box-section{
     display: flex;
     justify-content: space-between;
+}
+.thre-box button{
+    border-style: none;
+
+}
+.thre-box button a{
+    color: #000000;
+    font-family: 'Roboto';
+}
+.thre-box button:hover{
+    background-color: #dfd9d9;
+    transition: all .5s;
+    cursor: pointer;
+    font-size: 20px;
+    
 }
 .first-tree-box h3{
     margin-top: 30px;
